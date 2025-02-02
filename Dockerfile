@@ -1,6 +1,6 @@
 
 # Используем базовый образ с Maven и Java
-FROM maven:3.8.6-openjdk-17 AS build
+FROM jelastic/maven:3.9.5-openjdk-21 AS build
 
 # Указываем рабочую директорию внутри контейнера
 WORKDIR /app
